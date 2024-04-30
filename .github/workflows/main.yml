@@ -1,4 +1,4 @@
-name: Update branch
+name: Update Mariluna branch
 
 on:
   push:
@@ -11,9 +11,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Push changes to branch
+
+      - name: Fetch changes from main branch
+        run: git fetch origin main
+
+      - name: Merge changes into Mariluna branch
         run: |
-          git fetch origin main
           git checkout Mariluna
           git merge origin/main --no-edit
-          git push origin Mariluna
+
+      - name: Push changes to Mariluna branch
+        run: git push origin Mariluna
