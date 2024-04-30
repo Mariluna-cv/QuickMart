@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+"holaaaaaa"
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Mart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .producto {
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .producto img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .producto h3 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .producto p.precio {
+            font-weight: bold;
+            color: red;
+        }
+
+        .producto button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="producto">
+            <img src="https://picsum.photos/200/300?image=1027" alt="Zapatos Nike">
+            <h3>Zapatos Nike</h3>
+            <p class="precio">$80</p>
+            <button>Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://picsum.photos/200/300?image=1028" alt="Auriculares">
+            <h3>Auriculares</h3>
+            <p class="precio">$20</p>
+            <button>Añadir al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="https://picsum.photos/200/300?image=1029" alt="Reloj">
+            <h3>Reloj</h3>
+            <p class="precio">$50</p>
+            <button>Añadir al carrito</button>
+        </div>
+    </div>
+</body>
+</html>
