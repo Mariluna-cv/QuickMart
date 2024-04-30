@@ -20,10 +20,7 @@ jobs:
 
       - name: Merge changes into other branches
         run: |
-          git checkout Mariluna_corrales
-          git merge main
-          git push origin Mariluna_corrales
-
+        
           git checkout Yurgen_luis
           git merge main
           git push origin Yurgen_luis
