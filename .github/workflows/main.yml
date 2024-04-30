@@ -1,0 +1,19 @@
+name: Update branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-mariluna:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Push changes to branch
+        run: |
+          git fetch origin main
+          git checkout Mariluna
+          git merge origin/main --no-edit
+          git push origin Mariluna
