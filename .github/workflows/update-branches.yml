@@ -21,18 +21,6 @@ jobs:
       - name: Merge changes into other branches
         run: |
         
-          git checkout Rama-Mariluna-corrales
+          git checkout Maricv
           git merge main
-          git push origin Rama-Mariluna-corrales
-
-          git checkout Rama-Yurgen-luis
-          git merge main
-          git push origin Rama-Yurgen-luis
-
-          git checkout Rama-Carlos-Andres
-          git merge main
-          git push origin Rama-Carlos-Andres
-
-           git checkout Rama-Johan-Esteban
-          git merge main
-          git push origin Rama-Johan-Esteban
+          git push origin Maricv
