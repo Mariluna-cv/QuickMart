@@ -7,6 +7,7 @@ Scrum Team:
 Nombre: Carlos Andres Gonzalez Chaverra  correo: carlos.gonzalezcch@cun.edu.co ROL: Scrum Master
 
 Development Team
+
 Nombre: Mariluna Corrales  correo: mariluna.corrales@cun.edu.co 
 
 Nombre: Yurgen Luis Barros Redondo  Correo: yuger.barros@cun.edu.co
