@@ -1,0 +1,33 @@
+name: Update Branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-branches:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Merge changes into other branches
+        run: |
+          git checkout Mariluna-Corrales
+          git merge main
+          git push origin Mariluna-Corrales
+
+          git checkout Yurgen-luis
+          git merge main
+          git push origin Yurgen-luis
+
+          git checkout Carlos-Andres
+          git merge main
+          git push origin Carlos-Andres
+
+          git checkout Johan-Esteban
+          git merge main
+          git push origin Johan-Esteban
+
