@@ -1,5 +1,20 @@
+        header {
+            background-color: #d1c845;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
 
-    
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px; 
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -44,4 +59,34 @@
             border: none;
             cursor: pointer;
         }
-    
+ 
+        .menu {
+            position: fixed;
+            top: 50%; 
+            right: 20px; 
+            transform: translateY(-50%);
+            background-color: #007bff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu ul li {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .menu ul li a:hover {
+            text-decoration: underline;
+        }
