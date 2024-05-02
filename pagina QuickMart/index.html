@@ -1,76 +1,65 @@
-hola
 <!DOCTYPE html>
 <html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Mart</title>
-<head>
     <link rel="stylesheet" href="Style.css">
 </head>
+<header>
+    <img src="img/verde.png" alt="Icono Quick Mart">
+    <h1>Quick Mart</h1>
+</header>
+<nav class="menu">
+    <ul>
+        <li><a href="index2.html">Inicio</a></li>
+        <li><a href="index.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+    </ul>
+</nav>
 <body>
     <div class="container">
         <div class="producto">
- Rama-Yurgen-luis
-            <img src="https://picsum.photos/200/300?image=1027" alt="Manzana">
+            <img src="img/manzana.png" alt="Manzana">
             <h3>Manzana</h3>
-
-            <img src="https://picsum.photos/200/300?image=1027" alt="manzana">
-            <h3>manzana</h3>
- main
             <p class="precio">$80</p>
-            <button>Añadir al carrito</button>
+            <button onclick="agregarAlCarrito('Manzana', 80)">Añadir al carrito</button>
         </div>
 
         <div class="producto">
- Rama-Yurgen-luis
-            <img src="https://picsum.photos/200/300?image=1028" alt="Lechuga">
+            <img src="img/lechuga.png" alt="Lechuga">
             <h3>Lechuga</h3>
-
-            <img src="https://picsum.photos/200/300?image=1028" alt="lechuga">
-            <h3>lechuga</h3>
- main
             <p class="precio">$20</p>
-            <button>Añadir al carrito</button>
+            <button onclick="agregarAlCarrito('Lechuga', 20)">Añadir al carrito</button>
         </div>
 
         <div class="producto">
- Rama-Yurgen-luis
-            <img src="https://picsum.photos/200/300?image=1029" alt="Leche">
-            <h3>Leche</h3>
-
-            <img src="https://picsum.photos/200/300?image=1029" alt="leche">
+            <img src="img/cereal.png" alt="Cereal">
+            <h3>Cereal</h3>
+            <p class="precio">$50</p>
+            <button onclick="agregarAlCarrito('Cereal', 50)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/banana.png" alt="banana">
+            <h3>banana</h3>
+            <p class="precio">$50</p>
+            <button onclick="agregarAlCarrito('banana', 50)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/leche.png" alt="leche">
             <h3>leche</h3>
- main
             <p class="precio">$50</p>
-            <button>Añadir al carrito</button>
+            <button onclick="agregarAlCarrito('leche', 50)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="img/tomate.png" alt="tomate">
+            <h3>tomate</h3>
+            <p class="precio">$50</p>
+            <button onclick="agregarAlCarrito('tomate', 50)">Añadir al carrito</button>
         </div>
     </div>
+
+    <script src="agregarcarrito.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<body>
-    <div class="container">
-        <div class="producto">
-            <img src="https://picsum.photos/200/300?image=1027" alt="Manzana">
-            <h3>Manzana</h3>
-            <p class="precio">$80</p>
-            <button>Añadir al carrito</button>
-        </div>
 
-        <div class="producto">
-            <img src="https://picsum.photos/200/300?image=1028" alt="Lechuga">
-            <h3>Lechuga</h3>
-            <p class="precio">$20</p>
-            <button>Añadir al carrito</button>
-        </div>
-
-        <div class="producto">
-            <img src="https://picsum.photos/200/300?image=1029" alt="leche">
-            <h3>Leche</h3>
-            <p class="precio">$50</p>
-            <button>Añadir al carrito</button>
-        </div>
-    </div>
-</body>
-</html>
