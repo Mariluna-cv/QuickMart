@@ -1,5 +1,10 @@
 {
+Rama-Yurgen-luis
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/update-branches.yml"
+
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
+main
     ]
 }
