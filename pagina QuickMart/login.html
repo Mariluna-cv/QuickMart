@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Mart</title>
+  <link rel="stylesheet" href="Style.css">  </head>
+<body>
+  <header>
+    <div class="login">  <h1>Login QuickMart</h1>
+      <form action="login.php" method="post" id="login-form">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required>
+  
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+  
+        <button type="submit">Entrar</button>
+
+        <script>
+            // Example client-side validation (improvised, not secure)
+            const loginForm = document.getElementById('login-form');
+            loginForm.addEventListener('submit', (event) => {
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+    
+                if (username !== 'usuario1' && username !== 'administrador') {
+                    event.preventDefault(); // Prevent form submission if username is invalid
+                    document.getElementById('message').textContent = 'Usuario invalido';
+                } else if (username === 'usuario1' && password !== '1234') {
+                    event.preventDefault(); // Prevent form submission if password is invalid
+                    document.getElementById('message').textContent = 'Invalid Password';
+                } else if (username === 'administrador' && password !== 'admin123') {
+                    event.preventDefault(); // Prevent form submission if password is invalid
+                    document.getElementById('message').textContent = 'Invalid Password';
+                }
+            });
+        </script>
+      
+    </form>
+      <div id="message"></div>
+    </div>
+    <img src="img/logo circular.png" alt="Icono Quick Mart">  <h1>Quick Mart</h1>
+  </header>
+  <nav class="menu">
+    <ul>
+      <li><a href="index2.html">Inicio</a></li>
+      <li><a href="index.html">Productos</a></li>
+      <li><a href="carrito.html">Carrito</a></li>
+    </ul>
+  </nav>
+  <body>  <div class="container">
+    </div>
+
+  <script src="agregarcarrito.js"></script>
+</body>
+</html>
