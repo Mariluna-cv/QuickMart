@@ -13,11 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if ((username === 'usuario1' && password !== '1234') || (username === 'administrador' && password !== 'admin123')) {
       messageElement.textContent = 'Contraseña incorrecta';
     } else {      
-      messageElement.textContent = ''; 
-    }
-  }); message
+      messageElement.textContent = 'usuario correcto..Ingresando';
+      message
       loginForm.reset(); 
-      window.location.href = 'base.html'; 
+      window.location.href = 'base.html';  
+    }
+  }); 
 
   document.getElementById('username').addEventListener('input', function() {
     messageElement.textContent = ''; 
