@@ -1,19 +1,3 @@
-header {
-    background-color: #d1c845;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.2em;
-    margin-top: 0;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -21,24 +5,102 @@ body {
     padding: 0;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+
+header {
+    background-color: #409820;
+    color: #fff;
+    text-align: center;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
-.producto {
-    width: 300px;
-    margin-bottom: 20px;
+header img {
+    width: 100px;
+}
+
+header h1 {
+    margin: 0; 
+}
+
+
+.menuL ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuL ul li {
+    margin-left: 10px; 
+}
+
+.menuL ul li:first-child {
+    margin-left: 0;
+}
+
+.menuL ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menuL ul li a:hover {
+    text-decoration: underline;
+}
+.menu{
+    margin-right: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    display: flex-end;
+}
+
+.menu ul li {
+    margin-left: 10px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
+.menu ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
 }
 
+.producto {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block; 
+    vertical-align: top; 
+    box-sizing: border-box; 
+    padding: 0 10px; 
+}
+
+
 .producto img {
-    width: 80%;
-    height: 300px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -60,33 +122,53 @@ body {
     cursor: pointer;
 }
 
-.menu {
-    position: absolute;
-    top: 600px;
-    right: 20px;
+.producto button:hover {
+    background-color: #0056b3;
 }
 
-.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+
+body.login-page {
+    background-color: #53b336;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.menu ul li {
-    margin-right: 10px;
+.login {
+    text-align: center;
+    max-width: 4000px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.menu ul li:last-child {
-    margin-right: 0;
+.login input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.menu ul li a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 16px;
+.login button {
+    width: 100%;
+    background-color: #409820;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.menu ul li a:hover {
-    text-decoration: underline;
+.login button:hover {
+    background-color: #307a15;
+}
+
+.login-message {
+    margin-top: 20px;
+    color: red;
 }

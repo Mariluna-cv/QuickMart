@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Mart - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <div class="container">
+      <header>
+          <img src="img/QuickMart_Logo (1).png" alt="Icono Quick Mart">
+          <h1>Login QuickMart</h1>
+      </header>
+      <nav class="menuL">
+        <ul>
+            <li><a href="index2.html">Inicio</a></li>
+            <li><a href="index.html">Productos</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="login.html">login</a></li>
+    
+        </ul>
+    </nav>
+      <form id="login-form" class="login">
+          <label for="username">Usuario:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Entrar</button>
+      </form>
+      <div id="message"></div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
