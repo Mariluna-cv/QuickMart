@@ -14,4 +14,4 @@ Nombre: Yurgen Luis Barros Redondo  Correo: yuger.barros@cun.edu.co
 
 Nombre: Johan Esteban Orjuela Moyano  Correo: johan.orjuelam@cun.edu.co 
 
-Nombre: David Zorrilla  Correo: david.zorrilla@cun.edu.co
+Nombre: David Zorrilla Riveros Correo: david.zorrilla@cun.edu.co
