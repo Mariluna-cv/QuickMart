@@ -1,4 +1,4 @@
-# QuickMart
+![image](https://github.com/Mariluna-cv/QuickMart/assets/109470085/4c30f992-cdca-436d-918b-57c41b0ec78e)# QuickMart
 
 Proyecto final para el desarrollo de una Aplicación Web 
 
@@ -15,3 +15,5 @@ Nombre: Yurgen Luis Barros Redondo  Correo: yuger.barros@cun.edu.co
 Nombre: Johan Esteban Orjuela Moyano  Correo: johan.orjuelam@cun.edu.co 
 
 Nombre: David Zorrilla Riveros Correo: david.zorrilla@cun.edu.co
+
+Nombre: Emanuel Negrete Lopez correo: emanuel.lopez@cun.edu.co
