@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
       messageElement.textContent = 'usuario correcto..Ingresando';
       message
       loginForm.reset(); 
-      window.location.href = 'base.html';  
+      window.location.href = 'admin_carrito.html';  
     }
   }); 
 
