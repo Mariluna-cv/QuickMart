@@ -3,6 +3,8 @@
 $server = "localhost";
 $user = "root";
 $pass = "";
-$DB = ""
+$DB = "quickmart";
+
+
 
 ?>
