@@ -1,4 +1,4 @@
-![image](https://github.com/Mariluna-cv/QuickMart/assets/109470085/4c30f992-cdca-436d-918b-57c41b0ec78e)# QuickMart
+ QuickMart
 
 Proyecto final para el desarrollo de una Aplicación Web 
 
