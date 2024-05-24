@@ -17,7 +17,6 @@ header {
 
 header img {
     width: 100px;
-    margin: 10px;
 }
 
 header h1 {
@@ -230,3 +229,125 @@ body.cart-page button {
 body.cart-page button:hover {
     background-color: #c82333;
 }
+
+
+
+/* Estilos para el contenedor */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilos para la tabla generada por PHP */
+table {
+    width: 100%;
+    max-width: 100%; 
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.9rem;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+td {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 2rem;
+    font-family: 'Verdana', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+
+/* Estilos para el formulario */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centramos los elementos */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.form-group {
+    flex: 1 1 45%; /* Toma el 45% del ancho del contenedor, ajustable según se necesite */
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px; /* Ajusta el padding para hacer los inputs más grandes */
+    box-sizing: border-box;
+}
+
+.form-group button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: 1 1 100%; /* El botón toma el 100% del ancho disponible */
+}
+
+.form-group button:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    table, th, td {
+        font-size: 0.8rem;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+  
+  
+  
+
+
